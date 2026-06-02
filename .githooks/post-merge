@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+echo "Post-merge hook triggered"
+
+if [ -f requirements.txt ]; then
+    echo "Installing Python dependencies..."
+
+    if [ -d venv ]; then
+        source venv/bin/activate
+    fi
+
+    pip install -r requirements.txt
+fi
+
+# Run build script
+if [ -f build.bash ]; then
+    echo "Running build.bash..."
+
+    chmod +x build.bash
+    ./build.bash
+else
+    echo "build.bash not found"
+fi
+
+echo "Done"

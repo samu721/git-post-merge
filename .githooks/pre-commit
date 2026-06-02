@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+echo "Running custom checks..."
+
+
+
+files=$(git diff --cached --name-only --diff-filter=ACM)
+
+for file in $files; do
+    if [[ -f "$file" && "$file" == *.json ]]; then
+        echo "Checking JSON: $file"
+
+        if ! python3 -m json.tool "$file" >/dev/null 2>&1; then
+            echo " Invalid JSON: $file"
+            exit 1
+        fi
+    fi
+done
+
+
+
+echo "Checking whitespace..."
+git diff --cached --check || {
+    echo "❌ Whitespace issues found"
+    exit 1
+}
+
+echo "✅ All checks passed!"
+exit
