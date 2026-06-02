@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-exec >> postmerge.log 2>&1
+set -x
 
 echo "Post-merge hook triggered at $(date)"
 

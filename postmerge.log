@@ -1,0 +1,207 @@
+Post-merge hook triggered at Tuesday 02 June 2026 12:26:21 PM IST
+Installing Python dependencies...
+Requirement already satisfied: requests==2.32.3 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 2)) (2.32.3)
+Requirement already satisfied: python-dotenv==1.0.1 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 3)) (1.0.1)
+Requirement already satisfied: pydantic==2.8.2 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 6)) (2.8.2)
+Requirement already satisfied: pytest==8.3.2 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 9)) (8.3.2)
+Requirement already satisfied: black==24.8.0 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 12)) (24.8.0)
+Requirement already satisfied: flake8==7.1.0 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 13)) (7.1.0)
+Requirement already satisfied: rich==13.8.0 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 16)) (13.8.0)
+Requirement already satisfied: httpx==0.27.2 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 17)) (0.27.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in ./venv/lib/python3.10/site-packages (from requests==2.32.3->-r requirements.txt (line 2)) (3.4.7)
+Requirement already satisfied: idna<4,>=2.5 in ./venv/lib/python3.10/site-packages (from requests==2.32.3->-r requirements.txt (line 2)) (3.17)
+Requirement already satisfied: urllib3<3,>=1.21.1 in ./venv/lib/python3.10/site-packages (from requests==2.32.3->-r requirements.txt (line 2)) (2.7.0)
+Requirement already satisfied: certifi>=2017.4.17 in ./venv/lib/python3.10/site-packages (from requests==2.32.3->-r requirements.txt (line 2)) (2026.5.20)
+Requirement already satisfied: annotated-types>=0.4.0 in ./venv/lib/python3.10/site-packages (from pydantic==2.8.2->-r requirements.txt (line 6)) (0.7.0)
+Requirement already satisfied: pydantic-core==2.20.1 in ./venv/lib/python3.10/site-packages (from pydantic==2.8.2->-r requirements.txt (line 6)) (2.20.1)
+Requirement already satisfied: typing-extensions>=4.6.1 in ./venv/lib/python3.10/site-packages (from pydantic==2.8.2->-r requirements.txt (line 6)) (4.15.0)
+Requirement already satisfied: iniconfig in ./venv/lib/python3.10/site-packages (from pytest==8.3.2->-r requirements.txt (line 9)) (2.3.0)
+Requirement already satisfied: packaging in ./venv/lib/python3.10/site-packages (from pytest==8.3.2->-r requirements.txt (line 9)) (26.2)
+Requirement already satisfied: pluggy<2,>=1.5 in ./venv/lib/python3.10/site-packages (from pytest==8.3.2->-r requirements.txt (line 9)) (1.6.0)
+Requirement already satisfied: exceptiongroup>=1.0.0rc8 in ./venv/lib/python3.10/site-packages (from pytest==8.3.2->-r requirements.txt (line 9)) (1.3.1)
+Requirement already satisfied: tomli>=1 in ./venv/lib/python3.10/site-packages (from pytest==8.3.2->-r requirements.txt (line 9)) (2.4.1)
+Requirement already satisfied: click>=8.0.0 in ./venv/lib/python3.10/site-packages (from black==24.8.0->-r requirements.txt (line 12)) (8.4.1)
+Requirement already satisfied: mypy-extensions>=0.4.3 in ./venv/lib/python3.10/site-packages (from black==24.8.0->-r requirements.txt (line 12)) (1.1.0)
+Requirement already satisfied: pathspec>=0.9.0 in ./venv/lib/python3.10/site-packages (from black==24.8.0->-r requirements.txt (line 12)) (1.1.1)
+Requirement already satisfied: platformdirs>=2 in ./venv/lib/python3.10/site-packages (from black==24.8.0->-r requirements.txt (line 12)) (4.10.0)
+Requirement already satisfied: mccabe<0.8.0,>=0.7.0 in ./venv/lib/python3.10/site-packages (from flake8==7.1.0->-r requirements.txt (line 13)) (0.7.0)
+Requirement already satisfied: pycodestyle<2.13.0,>=2.12.0 in ./venv/lib/python3.10/site-packages (from flake8==7.1.0->-r requirements.txt (line 13)) (2.12.1)
+Requirement already satisfied: pyflakes<3.3.0,>=3.2.0 in ./venv/lib/python3.10/site-packages (from flake8==7.1.0->-r requirements.txt (line 13)) (3.2.0)
+Requirement already satisfied: markdown-it-py>=2.2.0 in ./venv/lib/python3.10/site-packages (from rich==13.8.0->-r requirements.txt (line 16)) (4.2.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in ./venv/lib/python3.10/site-packages (from rich==13.8.0->-r requirements.txt (line 16)) (2.20.0)
+Requirement already satisfied: anyio in ./venv/lib/python3.10/site-packages (from httpx==0.27.2->-r requirements.txt (line 17)) (4.13.0)
+Requirement already satisfied: httpcore==1.* in ./venv/lib/python3.10/site-packages (from httpx==0.27.2->-r requirements.txt (line 17)) (1.0.9)
+Requirement already satisfied: sniffio in ./venv/lib/python3.10/site-packages (from httpx==0.27.2->-r requirements.txt (line 17)) (1.3.1)
+Requirement already satisfied: h11>=0.16 in ./venv/lib/python3.10/site-packages (from httpcore==1.*->httpx==0.27.2->-r requirements.txt (line 17)) (0.16.0)
+Requirement already satisfied: mdurl~=0.1 in ./venv/lib/python3.10/site-packages (from markdown-it-py>=2.2.0->rich==13.8.0->-r requirements.txt (line 16)) (0.1.2)
+Running build.bash...
+Starting full build + test process...
+Configuring Git hooks...
+Making hooks executable...
+Setup complete.
+Git hooks are now configured for this repository.
+Upgrading pip...
+Requirement already satisfied: pip in ./venv/lib/python3.10/site-packages (26.1.2)
+Installing dependencies...
+Requirement already satisfied: requests==2.32.3 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 2)) (2.32.3)
+Requirement already satisfied: python-dotenv==1.0.1 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 3)) (1.0.1)
+Requirement already satisfied: pydantic==2.8.2 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 6)) (2.8.2)
+Requirement already satisfied: pytest==8.3.2 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 9)) (8.3.2)
+Requirement already satisfied: black==24.8.0 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 12)) (24.8.0)
+Requirement already satisfied: flake8==7.1.0 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 13)) (7.1.0)
+Requirement already satisfied: rich==13.8.0 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 16)) (13.8.0)
+Requirement already satisfied: httpx==0.27.2 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 17)) (0.27.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in ./venv/lib/python3.10/site-packages (from requests==2.32.3->-r requirements.txt (line 2)) (3.4.7)
+Requirement already satisfied: idna<4,>=2.5 in ./venv/lib/python3.10/site-packages (from requests==2.32.3->-r requirements.txt (line 2)) (3.17)
+Requirement already satisfied: urllib3<3,>=1.21.1 in ./venv/lib/python3.10/site-packages (from requests==2.32.3->-r requirements.txt (line 2)) (2.7.0)
+Requirement already satisfied: certifi>=2017.4.17 in ./venv/lib/python3.10/site-packages (from requests==2.32.3->-r requirements.txt (line 2)) (2026.5.20)
+Requirement already satisfied: annotated-types>=0.4.0 in ./venv/lib/python3.10/site-packages (from pydantic==2.8.2->-r requirements.txt (line 6)) (0.7.0)
+Requirement already satisfied: pydantic-core==2.20.1 in ./venv/lib/python3.10/site-packages (from pydantic==2.8.2->-r requirements.txt (line 6)) (2.20.1)
+Requirement already satisfied: typing-extensions>=4.6.1 in ./venv/lib/python3.10/site-packages (from pydantic==2.8.2->-r requirements.txt (line 6)) (4.15.0)
+Requirement already satisfied: iniconfig in ./venv/lib/python3.10/site-packages (from pytest==8.3.2->-r requirements.txt (line 9)) (2.3.0)
+Requirement already satisfied: packaging in ./venv/lib/python3.10/site-packages (from pytest==8.3.2->-r requirements.txt (line 9)) (26.2)
+Requirement already satisfied: pluggy<2,>=1.5 in ./venv/lib/python3.10/site-packages (from pytest==8.3.2->-r requirements.txt (line 9)) (1.6.0)
+Requirement already satisfied: exceptiongroup>=1.0.0rc8 in ./venv/lib/python3.10/site-packages (from pytest==8.3.2->-r requirements.txt (line 9)) (1.3.1)
+Requirement already satisfied: tomli>=1 in ./venv/lib/python3.10/site-packages (from pytest==8.3.2->-r requirements.txt (line 9)) (2.4.1)
+Requirement already satisfied: click>=8.0.0 in ./venv/lib/python3.10/site-packages (from black==24.8.0->-r requirements.txt (line 12)) (8.4.1)
+Requirement already satisfied: mypy-extensions>=0.4.3 in ./venv/lib/python3.10/site-packages (from black==24.8.0->-r requirements.txt (line 12)) (1.1.0)
+Requirement already satisfied: pathspec>=0.9.0 in ./venv/lib/python3.10/site-packages (from black==24.8.0->-r requirements.txt (line 12)) (1.1.1)
+Requirement already satisfied: platformdirs>=2 in ./venv/lib/python3.10/site-packages (from black==24.8.0->-r requirements.txt (line 12)) (4.10.0)
+Requirement already satisfied: mccabe<0.8.0,>=0.7.0 in ./venv/lib/python3.10/site-packages (from flake8==7.1.0->-r requirements.txt (line 13)) (0.7.0)
+Requirement already satisfied: pycodestyle<2.13.0,>=2.12.0 in ./venv/lib/python3.10/site-packages (from flake8==7.1.0->-r requirements.txt (line 13)) (2.12.1)
+Requirement already satisfied: pyflakes<3.3.0,>=3.2.0 in ./venv/lib/python3.10/site-packages (from flake8==7.1.0->-r requirements.txt (line 13)) (3.2.0)
+Requirement already satisfied: markdown-it-py>=2.2.0 in ./venv/lib/python3.10/site-packages (from rich==13.8.0->-r requirements.txt (line 16)) (4.2.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in ./venv/lib/python3.10/site-packages (from rich==13.8.0->-r requirements.txt (line 16)) (2.20.0)
+Requirement already satisfied: anyio in ./venv/lib/python3.10/site-packages (from httpx==0.27.2->-r requirements.txt (line 17)) (4.13.0)
+Requirement already satisfied: httpcore==1.* in ./venv/lib/python3.10/site-packages (from httpx==0.27.2->-r requirements.txt (line 17)) (1.0.9)
+Requirement already satisfied: sniffio in ./venv/lib/python3.10/site-packages (from httpx==0.27.2->-r requirements.txt (line 17)) (1.3.1)
+Requirement already satisfied: h11>=0.16 in ./venv/lib/python3.10/site-packages (from httpcore==1.*->httpx==0.27.2->-r requirements.txt (line 17)) (0.16.0)
+Requirement already satisfied: mdurl~=0.1 in ./venv/lib/python3.10/site-packages (from markdown-it-py>=2.2.0->rich==13.8.0->-r requirements.txt (line 16)) (0.1.2)
+Running app.py...
+Hello World
+Checking good.json...
+good.json is VALID
+Checking bad.json...
+❌ WARNING: bad.json should have failed but didn't
+Done
+++ date
++ echo 'Post-merge hook triggered at Tuesday 02 June 2026 12:37:27 PM IST'
+Post-merge hook triggered at Tuesday 02 June 2026 12:37:27 PM IST
++ '[' -f requirements.txt ']'
++ echo 'Installing Python dependencies...'
+Installing Python dependencies...
++ '[' -d venv ']'
++ source venv/bin/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /usr/bin/bash -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ unset VIRTUAL_ENV_PROMPT
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/home/samruddhikoratkar/Documents/git-post-merge/venv
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH=/home/samruddhikoratkar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+++ PATH=/home/samruddhikoratkar/Documents/git-post-merge/venv/bin:/home/samruddhikoratkar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ PS1='(venv) '
+++ export PS1
+++ VIRTUAL_ENV_PROMPT='(venv) '
+++ export VIRTUAL_ENV_PROMPT
+++ '[' -n /usr/bin/bash -o -n '' ']'
+++ hash -r
++ pip install -r requirements.txt
+Requirement already satisfied: requests==2.32.3 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 2)) (2.32.3)
+Requirement already satisfied: python-dotenv==1.0.1 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 3)) (1.0.1)
+Requirement already satisfied: pydantic==2.8.2 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 6)) (2.8.2)
+Requirement already satisfied: pytest==8.3.2 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 9)) (8.3.2)
+Requirement already satisfied: black==24.8.0 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 12)) (24.8.0)
+Requirement already satisfied: flake8==7.1.0 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 13)) (7.1.0)
+Requirement already satisfied: rich==13.8.0 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 16)) (13.8.0)
+Requirement already satisfied: httpx==0.27.2 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 17)) (0.27.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in ./venv/lib/python3.10/site-packages (from requests==2.32.3->-r requirements.txt (line 2)) (3.4.7)
+Requirement already satisfied: idna<4,>=2.5 in ./venv/lib/python3.10/site-packages (from requests==2.32.3->-r requirements.txt (line 2)) (3.17)
+Requirement already satisfied: urllib3<3,>=1.21.1 in ./venv/lib/python3.10/site-packages (from requests==2.32.3->-r requirements.txt (line 2)) (2.7.0)
+Requirement already satisfied: certifi>=2017.4.17 in ./venv/lib/python3.10/site-packages (from requests==2.32.3->-r requirements.txt (line 2)) (2026.5.20)
+Requirement already satisfied: annotated-types>=0.4.0 in ./venv/lib/python3.10/site-packages (from pydantic==2.8.2->-r requirements.txt (line 6)) (0.7.0)
+Requirement already satisfied: pydantic-core==2.20.1 in ./venv/lib/python3.10/site-packages (from pydantic==2.8.2->-r requirements.txt (line 6)) (2.20.1)
+Requirement already satisfied: typing-extensions>=4.6.1 in ./venv/lib/python3.10/site-packages (from pydantic==2.8.2->-r requirements.txt (line 6)) (4.15.0)
+Requirement already satisfied: iniconfig in ./venv/lib/python3.10/site-packages (from pytest==8.3.2->-r requirements.txt (line 9)) (2.3.0)
+Requirement already satisfied: packaging in ./venv/lib/python3.10/site-packages (from pytest==8.3.2->-r requirements.txt (line 9)) (26.2)
+Requirement already satisfied: pluggy<2,>=1.5 in ./venv/lib/python3.10/site-packages (from pytest==8.3.2->-r requirements.txt (line 9)) (1.6.0)
+Requirement already satisfied: exceptiongroup>=1.0.0rc8 in ./venv/lib/python3.10/site-packages (from pytest==8.3.2->-r requirements.txt (line 9)) (1.3.1)
+Requirement already satisfied: tomli>=1 in ./venv/lib/python3.10/site-packages (from pytest==8.3.2->-r requirements.txt (line 9)) (2.4.1)
+Requirement already satisfied: click>=8.0.0 in ./venv/lib/python3.10/site-packages (from black==24.8.0->-r requirements.txt (line 12)) (8.4.1)
+Requirement already satisfied: mypy-extensions>=0.4.3 in ./venv/lib/python3.10/site-packages (from black==24.8.0->-r requirements.txt (line 12)) (1.1.0)
+Requirement already satisfied: pathspec>=0.9.0 in ./venv/lib/python3.10/site-packages (from black==24.8.0->-r requirements.txt (line 12)) (1.1.1)
+Requirement already satisfied: platformdirs>=2 in ./venv/lib/python3.10/site-packages (from black==24.8.0->-r requirements.txt (line 12)) (4.10.0)
+Requirement already satisfied: mccabe<0.8.0,>=0.7.0 in ./venv/lib/python3.10/site-packages (from flake8==7.1.0->-r requirements.txt (line 13)) (0.7.0)
+Requirement already satisfied: pycodestyle<2.13.0,>=2.12.0 in ./venv/lib/python3.10/site-packages (from flake8==7.1.0->-r requirements.txt (line 13)) (2.12.1)
+Requirement already satisfied: pyflakes<3.3.0,>=3.2.0 in ./venv/lib/python3.10/site-packages (from flake8==7.1.0->-r requirements.txt (line 13)) (3.2.0)
+Requirement already satisfied: markdown-it-py>=2.2.0 in ./venv/lib/python3.10/site-packages (from rich==13.8.0->-r requirements.txt (line 16)) (4.2.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in ./venv/lib/python3.10/site-packages (from rich==13.8.0->-r requirements.txt (line 16)) (2.20.0)
+Requirement already satisfied: anyio in ./venv/lib/python3.10/site-packages (from httpx==0.27.2->-r requirements.txt (line 17)) (4.13.0)
+Requirement already satisfied: httpcore==1.* in ./venv/lib/python3.10/site-packages (from httpx==0.27.2->-r requirements.txt (line 17)) (1.0.9)
+Requirement already satisfied: sniffio in ./venv/lib/python3.10/site-packages (from httpx==0.27.2->-r requirements.txt (line 17)) (1.3.1)
+Requirement already satisfied: h11>=0.16 in ./venv/lib/python3.10/site-packages (from httpcore==1.*->httpx==0.27.2->-r requirements.txt (line 17)) (0.16.0)
+Requirement already satisfied: mdurl~=0.1 in ./venv/lib/python3.10/site-packages (from markdown-it-py>=2.2.0->rich==13.8.0->-r requirements.txt (line 16)) (0.1.2)
++ '[' -f build.bash ']'
++ echo 'Running build.bash...'
+Running build.bash...
++ chmod +x build.bash
++ ./build.bash
+Starting full build + test process...
+Configuring Git hooks...
+Making hooks executable...
+Setup complete.
+Git hooks are now configured for this repository.
+Upgrading pip...
+Requirement already satisfied: pip in ./venv/lib/python3.10/site-packages (26.1.2)
+Installing dependencies...
+Requirement already satisfied: requests==2.32.3 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 2)) (2.32.3)
+Requirement already satisfied: python-dotenv==1.0.1 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 3)) (1.0.1)
+Requirement already satisfied: pydantic==2.8.2 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 6)) (2.8.2)
+Requirement already satisfied: pytest==8.3.2 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 9)) (8.3.2)
+Requirement already satisfied: black==24.8.0 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 12)) (24.8.0)
+Requirement already satisfied: flake8==7.1.0 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 13)) (7.1.0)
+Requirement already satisfied: rich==13.8.0 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 16)) (13.8.0)
+Requirement already satisfied: httpx==0.27.2 in ./venv/lib/python3.10/site-packages (from -r requirements.txt (line 17)) (0.27.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in ./venv/lib/python3.10/site-packages (from requests==2.32.3->-r requirements.txt (line 2)) (3.4.7)
+Requirement already satisfied: idna<4,>=2.5 in ./venv/lib/python3.10/site-packages (from requests==2.32.3->-r requirements.txt (line 2)) (3.17)
+Requirement already satisfied: urllib3<3,>=1.21.1 in ./venv/lib/python3.10/site-packages (from requests==2.32.3->-r requirements.txt (line 2)) (2.7.0)
+Requirement already satisfied: certifi>=2017.4.17 in ./venv/lib/python3.10/site-packages (from requests==2.32.3->-r requirements.txt (line 2)) (2026.5.20)
+Requirement already satisfied: annotated-types>=0.4.0 in ./venv/lib/python3.10/site-packages (from pydantic==2.8.2->-r requirements.txt (line 6)) (0.7.0)
+Requirement already satisfied: pydantic-core==2.20.1 in ./venv/lib/python3.10/site-packages (from pydantic==2.8.2->-r requirements.txt (line 6)) (2.20.1)
+Requirement already satisfied: typing-extensions>=4.6.1 in ./venv/lib/python3.10/site-packages (from pydantic==2.8.2->-r requirements.txt (line 6)) (4.15.0)
+Requirement already satisfied: iniconfig in ./venv/lib/python3.10/site-packages (from pytest==8.3.2->-r requirements.txt (line 9)) (2.3.0)
+Requirement already satisfied: packaging in ./venv/lib/python3.10/site-packages (from pytest==8.3.2->-r requirements.txt (line 9)) (26.2)
+Requirement already satisfied: pluggy<2,>=1.5 in ./venv/lib/python3.10/site-packages (from pytest==8.3.2->-r requirements.txt (line 9)) (1.6.0)
+Requirement already satisfied: exceptiongroup>=1.0.0rc8 in ./venv/lib/python3.10/site-packages (from pytest==8.3.2->-r requirements.txt (line 9)) (1.3.1)
+Requirement already satisfied: tomli>=1 in ./venv/lib/python3.10/site-packages (from pytest==8.3.2->-r requirements.txt (line 9)) (2.4.1)
+Requirement already satisfied: click>=8.0.0 in ./venv/lib/python3.10/site-packages (from black==24.8.0->-r requirements.txt (line 12)) (8.4.1)
+Requirement already satisfied: mypy-extensions>=0.4.3 in ./venv/lib/python3.10/site-packages (from black==24.8.0->-r requirements.txt (line 12)) (1.1.0)
+Requirement already satisfied: pathspec>=0.9.0 in ./venv/lib/python3.10/site-packages (from black==24.8.0->-r requirements.txt (line 12)) (1.1.1)
+Requirement already satisfied: platformdirs>=2 in ./venv/lib/python3.10/site-packages (from black==24.8.0->-r requirements.txt (line 12)) (4.10.0)
+Requirement already satisfied: mccabe<0.8.0,>=0.7.0 in ./venv/lib/python3.10/site-packages (from flake8==7.1.0->-r requirements.txt (line 13)) (0.7.0)
+Requirement already satisfied: pycodestyle<2.13.0,>=2.12.0 in ./venv/lib/python3.10/site-packages (from flake8==7.1.0->-r requirements.txt (line 13)) (2.12.1)
+Requirement already satisfied: pyflakes<3.3.0,>=3.2.0 in ./venv/lib/python3.10/site-packages (from flake8==7.1.0->-r requirements.txt (line 13)) (3.2.0)
+Requirement already satisfied: markdown-it-py>=2.2.0 in ./venv/lib/python3.10/site-packages (from rich==13.8.0->-r requirements.txt (line 16)) (4.2.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in ./venv/lib/python3.10/site-packages (from rich==13.8.0->-r requirements.txt (line 16)) (2.20.0)
+Requirement already satisfied: anyio in ./venv/lib/python3.10/site-packages (from httpx==0.27.2->-r requirements.txt (line 17)) (4.13.0)
+Requirement already satisfied: httpcore==1.* in ./venv/lib/python3.10/site-packages (from httpx==0.27.2->-r requirements.txt (line 17)) (1.0.9)
+Requirement already satisfied: sniffio in ./venv/lib/python3.10/site-packages (from httpx==0.27.2->-r requirements.txt (line 17)) (1.3.1)
+Requirement already satisfied: h11>=0.16 in ./venv/lib/python3.10/site-packages (from httpcore==1.*->httpx==0.27.2->-r requirements.txt (line 17)) (0.16.0)
+Requirement already satisfied: mdurl~=0.1 in ./venv/lib/python3.10/site-packages (from markdown-it-py>=2.2.0->rich==13.8.0->-r requirements.txt (line 16)) (0.1.2)
+Running app.py...
+Hello World
+Checking good.json...
+good.json is VALID
+Checking bad.json...
+❌ WARNING: bad.json should have failed but didn't
++ echo Done
+Done
