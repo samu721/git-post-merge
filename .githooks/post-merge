@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-echo "Post-merge hook triggered"
+exec >> postmerge.log 2>&1
+
+echo "Post-merge hook triggered at $(date)"
 
 if [ -f requirements.txt ]; then
     echo "Installing Python dependencies..."
