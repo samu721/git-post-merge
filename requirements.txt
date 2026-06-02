@@ -3,7 +3,7 @@ requests==2.32.3
 python-dotenv==1.0.1
 
 # Data handling
-pydantic==2.8.3
+pydantic==2.8.2
 
 # Testing
 pytest==8.3.2
