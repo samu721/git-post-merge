@@ -5,13 +5,13 @@ echo "Starting full build + test process..."
 
 echo "Configuring Git hooks..."
 
-git config core.hooksPath .git/hooks
+git config core.hooksPath .githooks
 
 echo "Making hooks executable..."
 
 # chmod +x .git/hooks/pre-commit
-chmod +x .git/hooks/post-merge
-chmod +x .git/hooks/pre-commit
+chmod +x .githooks/post-merge
+chmod +x .githooks/pre-commit
 
 echo "Setup complete."
 echo "Git hooks are now configured for this repository."
